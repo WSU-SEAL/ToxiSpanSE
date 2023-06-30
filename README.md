@@ -82,8 +82,9 @@ GNU General Public License for more details.
 
 ## Citation for our papers
 If you use our work, please cite our paper:
-ESEM-23: "ToxiSpanSE: An Explainable Toxicity Detection in Code Review Comments"
 
+ESEM-23: "ToxiSpanSE: An Explainable Toxicity Detection in Code Review Comments"
+```
 @article{,
 author = {Sarker, Jaydeb and Sultana, Sayma and Wilson, Steve and Bosu, Amiangshu},
 title = {ToxiSpanSE: An Explainable Toxicity Detection in Code Review Comments},
@@ -94,11 +95,11 @@ issn = { },
 url = { },
 doi = { },
 booktitle = {Proceedings of the 17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement},
-articleno = {200},
-numpages = {3},
+articleno = {},
+numpages = {},
 keywords = {},
 location = {},
 series = {ESEM '23}
 }
-
+```
 
