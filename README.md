@@ -7,7 +7,7 @@ Read Our Papers <br />
 ## Datasets
 Our code review dataset is found at: /models/CR_full_span_dataset.xlsx <br>
 You can find also same dataset with .csv file. We used .xlsx one. 
-This Code Review (CR) dataset contains 19,671 comments where 3757 of them are labeled as toxic. The source of binary labeled dataset has been taken from: https://github.com/WSU-SEAL/ToxiCR
+This Code Review (CR) dataset contains 19,651 comments where 3757 of them are labeled as toxic. The source of binary labeled (each CR comment labeled as 0 or 1) dataset is: https://github.com/WSU-SEAL/ToxiCR
 
 We labeled the toxic spans of 3757 toxic samples and one can find the target toxic span offsets in our dataset file. Also, we consider the non-toxic CR comments do not contain any toxic span. 
 
