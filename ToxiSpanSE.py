@@ -249,10 +249,10 @@ if __name__ == '__main__':
 
     parser.add_argument('--algo', type=str,
                         help='Classification algorithm. Choices are: BERT| ALBERT| DBERT|ROBERTA |XLNET',
-                        default="BERT")
+                        default="ROBERTA")
     parser.add_argument('--tokenizer', type=str,
                         help='Choices are: bert| albert| dbert|roberta|xlnet',
-                        default="bert")
+                        default="roberta")
 
     parser.add_argument('--repeat', type=int, help='Iteration count', default=1) #default 1
     parser.add_argument('--threshold', help='Set a Threshold value', default=0.1)  # default 0.1
