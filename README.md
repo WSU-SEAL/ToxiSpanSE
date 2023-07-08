@@ -53,15 +53,15 @@ To run the Naive Algorithm (lexicon-matching based), use:
 $python naive_algorithm.py
 This naive algorithm uses 167 common toxic keywords from a list (/models/toxic_token_list.csv)
 
-To calculate the Inter Rater Agreement score 'krippendorff's alpha' use:
+To calculate the Inter-Rater Agreement score 'krippendorff's alpha' use:
 $python krippendorff_alpha.py
 
-to agrregate the results from all thresholds in validation set and find the optimal threshold using graph
+to aggregate the results from all thresholds in the validation set and find the optimal threshold using graph
 $python aggregate_results.py
 
 
-We use a list of 240 tokens in /models/full_token_list.csv. We added these tokens to each pre-trained tokenizers. This list can be omitted. 
-Sometimes, pre-trained tokenizers split the words into subwords. After adding these tokens, tokenizers help to gain more explainibility by making 
+We use a list of 240 tokens in /models/full_token_list.csv. We added these tokens to each pre-trained tokenizer. This list can be omitted. 
+Sometimes, pre-trained tokenizers split the words into subwords. After adding these tokens, tokenizers help to gain more explainability by making 
 toxic tagging understandable to users. 
 
 
@@ -81,12 +81,12 @@ GNU General Public License for more details.
 
 
 ## Citation for our papers
-If you use our work, please cite our paper:
+If you use our work or find it interesting, please cite our paper:
 
 ESEM-23: "ToxiSpanSE: An Explainable Toxicity Detection in Code Review Comments"
 ```
-@article{,
-author = {Sarker, Jaydeb and Sultana, Sayma and Wilson, Steve and Bosu, Amiangshu},
+@inproceedings{sarker-esem-2023,
+author = {Sarker, Jaydeb and Sultana, Sayma and Wilson, Steven R. and Bosu, Amiangshu},
 title = {ToxiSpanSE: An Explainable Toxicity Detection in Code Review Comments},
 year = {2023},
 publisher = {},
@@ -97,8 +97,9 @@ doi = { },
 booktitle = {Proceedings of the 17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement},
 articleno = {},
 numpages = {},
-keywords = {},
-location = {},
+keywords = {toxicity, span detection, software engineering, natural language processing, explainability},
+month=october,
+location = {New Orleans, Louisiana, United States},
 series = {ESEM '23}
 }
 ```
