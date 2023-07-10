@@ -2,7 +2,8 @@
 An Explainable Toxicity detector for code review comments. Published in ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)'2023
 
 Read Our Papers <br />
-#[ESEM-23: "ToxiSpanSE: An Explainable Toxicity Detection in Code Review Comments"]
+[ESEM-23: "ToxiSpanSE: An Explainable Toxicity Detection in Code Review Comments"]
+Preprint: https://arxiv.org/abs/2307.03386
 
 ## Datasets
 Our code review dataset is found at: /models/CR_full_span_dataset.xlsx <br>
